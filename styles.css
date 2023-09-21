@@ -14,14 +14,17 @@ body::before{
 body{
     font-family: 'Merriweather', serif;
 }
-
+.slogan{
+  font-size: 60%;
+}
 h1{
 font-family: 'Playfair Display', serif;
-  font-size: 60px;
+  font-size: 50px;
   color:#056608;
+  padding-bottom:0px;
 }
-#ink{
-  color: red;
+#red{
+  width: 5%;
 }
 
 .container{
@@ -57,6 +60,7 @@ input{
   border:none;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
+  width: 100%;
 }
    input:focus{
     outline: none;
@@ -65,9 +69,11 @@ button{
   border-radius: 5px;
   float:center;
   cursor: pointer;
-  padding: 5px;
+  padding: 10px 10px 8px 10px;
+  margin-left: 5px;
 
 }
-.fa-facebook{
-  color: #0f63f5;
+
+.red{
+  width: 50%;
 }
