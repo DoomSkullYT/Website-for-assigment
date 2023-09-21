@@ -1,0 +1,73 @@
+body::before{
+  content: "";
+  background-image: url("D:/final/images/e.jpg");
+  background-size: cover;
+  filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(5px);
+  z-index: -1;
+}
+body{
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color:#056608;
+}
+#ink{
+  color: red;
+}
+
+.container{
+  width: 700px;
+  height: 700px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows:1fr;
+
+  position: relative;
+  top: 25px;
+  left: 350px;
+  z-index: 1;
+
+}
+.item {
+  background-color: white;
+  padding: 20px;
+  /* border-radius: 20px; */
+
+}
+.item1{
+  border-radius: 20px 0 0 20px;
+  background-image: url("D:/final/images/e.jpg");
+  background-size:cover;
+
+}
+
+.item2{
+  border-radius: 0 20px 20px 0;
+}
+input{
+  border:none;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+   input:focus{
+    outline: none;
+}
+button{
+  border-radius: 5px;
+  float:center;
+  cursor: pointer;
+  padding: 5px;
+
+}
+.fa-facebook{
+  color: #0f63f5;
+}
